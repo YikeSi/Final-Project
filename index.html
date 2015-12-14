@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nina Si - Final Project 2015 </title>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="style.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container">
+            <h1>Restaurant Inspections 2015</h1>
+            <div class="controls btn-group">
+                <a href="#" class="btn btn-default" id="map">CITIES</a>
+                <a href="#" class="btn btn-default" id="piechart">OWNERS</a>
+            </div>
+            <div class="canvas" id="plot">
+                <div class="custom-tooltip">
+                    <h2 id="type"></h2>
+                    <p><span id="value"></span></p>
+                    <p><span id="tag"></span></p>
+                    <p><span id="percentage"></span></p>
+                </div>
+            </div>
+        </div><!--.container-->
+
+
+		<!-- Scripts -->
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="lib/queue/queue.min.js"></script>
+		<script src="script/script-complete.js"></script>
+	</body>
+</html>
